@@ -1,9 +1,10 @@
 body{
-  background-color: rgb(129, 248, 248);
+  background-color: rgb(197, 196, 196);
   text-align: center;
 }
 .App-logo {
-  height: 20rem;
+  height: 25rem;
+  padding-top: 1rem;
 }
 
 .Mission-statement {
