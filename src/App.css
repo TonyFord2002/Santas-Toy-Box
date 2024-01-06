@@ -1,5 +1,5 @@
 body{
-  background-color: darkslategray;
+  background-color: rgb(129, 248, 248);
   text-align: center;
 }
 .App-logo {
@@ -8,18 +8,18 @@ body{
 
 .Mission-statement {
   font-size: 20px;
-  color: white;
 }
 
 .Register{
   font-size: 18px;
-  color: white;
   margin-top: 3rem;
 }
 
 .Links{
-  color: white;
+  position: sticky;
+  bottom: 0px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  margin: 2rem 15rem 0 15rem;
+  margin: 20rem 25rem 0 25rem;
+  padding-bottom: 1rem;
 }

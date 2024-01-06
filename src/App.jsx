@@ -1,12 +1,10 @@
 import './App.css';
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import Home from './components/Home'
 import Register from './components/Register'
 import ContactUs from './components/ContactUs'
 import Support from './components/Support'
 import Partners from './components/Partners'
-
-import santasToyBoxLogo from './santasToyBoxLogo.png'
 
 function App() {
   return (
