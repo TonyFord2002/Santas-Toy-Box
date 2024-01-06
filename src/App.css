@@ -1,24 +1,25 @@
-.App {
+body{
+  background-color: darkslategray;
   text-align: center;
-}
-
-.Elizabeth {
-  color: pink;
 }
 .App-logo {
   height: 20rem;
 }
 
-.App-header {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.Mission-statement {
+  font-size: 20px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.Register{
+  font-size: 18px;
+  color: white;
+  margin-top: 3rem;
+}
+
+.Links{
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 2rem 15rem 0 15rem;
 }

@@ -1,18 +1,26 @@
-import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import Home from './components/Home'
+import Register from './components/Register'
+import ContactUs from './components/ContactUs'
+import Support from './components/Support'
+import Partners from './components/Partners'
+
 import santasToyBoxLogo from './santasToyBoxLogo.png'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={santasToyBoxLogo} className="App-logo" alt="logo" />
-        <p className='Elizabeth'>
-        Elizabeth is awesome!! She will do amazing in her performance!!
-        </p>
-
-      </header>
-    </div>
+    <>
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/register" element={<Register />} />
+          <Route path="/contactus" element={<ContactUs />} />
+          <Route path="/support" element={<Support />} />
+          <Route path="/partners" element={<Partners />} />
+        </Routes>
+      </Router>
+    </>
   );
 }
 
